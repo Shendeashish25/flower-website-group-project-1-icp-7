@@ -41,7 +41,7 @@
 }
 
 .section:hover{
-    color: #ff80c1;
+    color:  #ff1a8c;
     transition: 0.2s;
 }
 
@@ -51,15 +51,17 @@
     margin: 7px;
 }
 
-.icon-color-change:hover{
-    color: #ff80c1;
+.icon:hover{
+    color:  #ff1a8c;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .cart-icon{
     width: 35px;
     height: 35px;
     margin: 5px;
+    cursor: pointer;
 }
 .icons{
     margin-right: 170px;
@@ -69,4 +71,8 @@
     font-size: 40px;
     margin-left: 150px;
     padding: 10px 20px;
+}
+
+.dot{
+    color: #ff1a8c;
 }

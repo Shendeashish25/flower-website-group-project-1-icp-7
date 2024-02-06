@@ -10,6 +10,7 @@
 }
 
 .header{
+    
     position: fixed;
     background-color: #fff;
     padding: 2px;
@@ -22,6 +23,7 @@
 }
 
 .navbar{
+   
     text-decoration: none;
     display: flex;
     align-items: center;

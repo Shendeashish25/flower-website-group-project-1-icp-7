@@ -17,9 +17,6 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url(../img/pink-flower.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .card {

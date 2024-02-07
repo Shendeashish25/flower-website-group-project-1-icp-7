@@ -1,0 +1,33 @@
+
+.cart1{
+    height: 705px;
+    width: 1300px;
+    background-color:#f0dae5;
+    margin: 0px 0px 0 100px ;
+    box-shadow: 5px 5px 5px 5px #f0dae5;
+    
+}
+.cart2{
+    height: 450px;
+    width: 450px;
+    background-color: white;
+    border: solid white 2px;
+    margin-top: ;
+    margin: 0px 0 0 40px ;
+    display: flex;
+    
+}
+.img-1{
+    width: 100%;
+    margin-top: ;
+    
+}
+.cart3{
+
+}
+.heading1{
+    font-size: 40px;
+    display: block;
+    font-style: normal;
+   
+}

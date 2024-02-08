@@ -47,27 +47,6 @@
     transition: 0.2s;
 }
 
-.icon{
-    width: 30px;
-    height: 30px;
-    margin: 7px;
-}
-
-.icon:hover{
-    color:  #ff1a8c;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.cart-icon{
-    width: 35px;
-    height: 35px;
-    margin: 5px;
-    cursor: pointer;
-}
-.icons{
-    margin-right: 170px;
-}
 
 .name{
     font-size: 40px;
@@ -76,5 +55,25 @@
 }
 
 .dot{
+    color: #ff1a8c;
+}
+
+.Signup{
+    text-decoration: none;
+    color: #595959;
+    font-size: 20px;
+}
+
+.Login{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #595959;
+    font-size: 20px;
+}
+
+.Login:hover{
+    color: #ff1a8c;
+}
+.Signup:hover{
     color: #ff1a8c;
 }

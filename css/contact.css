@@ -1,19 +1,39 @@
+<<<<<<< HEAD
 
 .heading{
+=======
+/*body {
+    background-image:url(./../img/images.jpg); 
+    background-size: cover;
+    background-position:initial;
+    background-repeat: no-repeat;
+  }*/
+  .heading{
+>>>>>>> bee50f8e0173c9273a4fe60bf94ec546a472484a
     background-color: #ffcce6;
     padding: 10px;
     margin: 10px;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+<<<<<<< HEAD
 .row{
+=======
+
+
+.contact .row{
+>>>>>>> bee50f8e0173c9273a4fe60bf94ec546a472484a
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     align-items: center;
 }
 
+<<<<<<< HEAD
 .row form{
+=======
+.contact .row form{
+>>>>>>> bee50f8e0173c9273a4fe60bf94ec546a472484a
     flex: 1 1 40rem;
     padding: 2rem 2.5rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -21,6 +41,7 @@
     background: #fff;
     background-repeat: 5rem;
 }
+<<<<<<< HEAD
 .row .image{
     flex: 1 1 40rem;
 }
@@ -28,6 +49,17 @@
     width: 100%;
 }
  .row form .box{
+=======
+
+.contact .row .image{
+    flex: 1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+.contact .row form .box{
+>>>>>>> bee50f8e0173c9273a4fe60bf94ec546a472484a
     padding: 1rem;
     font-size: 1.7rem;
     color: #333;
@@ -37,14 +69,27 @@
     margin: .7rem 0;
     width: 100%;
 }
+<<<<<<< HEAD
  .row form .box:focus{
     border-color: var;
 }
  .row form textarea{
+=======
+
+.contact .row form .box:focus{
+    border-color: var;
+}
+
+.contact .row form textarea{
+>>>>>>> bee50f8e0173c9273a4fe60bf94ec546a472484a
     height: 15rem;
     resize: none;
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bee50f8e0173c9273a4fe60bf94ec546a472484a
 .btn{
     width: 200px;
     background-color: black;
@@ -53,5 +98,9 @@
     margin: 20px;
     border-radius: 20px;
     box-shadow: 0 0 1px 3px ;
+<<<<<<< HEAD
     height: 50px;
+=======
+    height: 50px;
+>>>>>>> bee50f8e0173c9273a4fe60bf94ec546a472484a
 }

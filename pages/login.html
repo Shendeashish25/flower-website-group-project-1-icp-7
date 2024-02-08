@@ -11,41 +11,33 @@
       <h1 class="name">FlowersWorld<span class="dot">.</span></h1>
 
       <nav class="navbar">
-          <a href="./index.html" class="section">Home</a>
-          <a href="./pages/about.html" target="_blank" class="section">About</a>
-          <a href="./pages/product.html" target="_blank" class="section">Products</a>
-          <a href="./pages/review.html" target="_blank" class="section">Review</a>
-          <a href="./pages/contact.html" target="_blank" class="section">Contact</a>
+          <a href="../index.html" target="_blank" class="section">Home</a>
+          <a href="./about.html" target="_blank" class="section">About</a>
+          <a href="./product.html" target="_blank" class="section">Products</a>
+          <a href="./review.html" target="_blank" class="section">Review</a>
+          <a href="./contact.html" target="_blank" class="section">Contact</a>
       </nav>
 
-      <!-- <div class="icons">
-          <img src="./icons/heart.png" alt="" class="icon">
-          <img src="./icons/cart.png" alt="" class="icon cart-icon">
-          <img src="./icons/profile.png" alt="" class="icon">
-      </div> -->
 
       <div class="division">
-          <a href="./pages/signup.html" target="_blank" class="signup">Sign Up/</a>
-          <a href="./pages/login.html"  target="_blank" class="Login">Login</a>
+          <a href="./signup.html" target="_blank" class="Signup">Sign Up/</a>
+          <a href="./login.html"  target="_blank" class="Login">Login</a>
       </div>
     </header><br/><br/><br/><br/>
-    <div class="center">
-      <h1>Login</h1>
-      <form>
-        <div class="txt_field">
-          <input type="text" required>
-          <label>Username</label>
-        </div>
-        <div class="txt_field">
-          <input type="password" required>
-          <label>Password</label>
-        </div>
-        <div class="pass">Forgot Password?</div>
-        <input type="submit" value="Login">
-        <div class="signup_link">
-                      Don't have an account? <a href="#">signup</a>
-        </div>
-      </form>
-    </div>
+    <div class="main">
+      <div class="signup">
+          <h2>Login</h2>
+          <form id="register" method="post">
+          
+              <label>User Name:</label>
+              <br/>
+              <input type="text" name="fname" id="name" placeholder="Enter Your User name"/><br/><br/>
+              <label>Password:</label><br/>
+              <input type="password" name="pass" id="name" placeholder="Password"/><br/><br/>
+            <input type="submit" value="Login" name="submit" id="submit"/>
+            <div class=" login_link"> Don't have an Account? <a href="../pages/signup.html">SignUp</a></div>
+            </form>
+          </div>
+          </div>
   </body>
 </html>

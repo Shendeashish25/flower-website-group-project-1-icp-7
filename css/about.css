@@ -2,7 +2,7 @@
     text-align: center;
     font-size: 40px;
     color: black;
-    padding: 10px;
+    padding: 10px 30px;
     margin: 20px 0px;
 background-color: #ff99ce;
 }
@@ -14,14 +14,15 @@ background-color: #ff99ce;
     
     padding: 20px 0;
     padding-bottom: 40px;
+    gap: 20px;
     
 }
 .aboutm.main .v-box{
-flex: 1 1 500px;
+flex: 1 1 100px;
 position: relative;
 }
 .aboutm .main .v-box video{
-    width: 100%;
+    width: 900px;
     border: solid white 2px;
     border-radius: 5px;
   box-shadow: 0 5px 5px 2px black;
@@ -42,10 +43,22 @@ text-align: center;
 
 
 }
+h3{
+    text-align: center;
+    margin-bottom:
+    color:#231e21 ;
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 30px;
+
+}
+p{
+}
 
 
-.aboutm .main .discription{
-    flex: 1 1 850px;
+ .discription{
+    margin-bottom: 60px;
+    font-size: 20px;
+ 
 }
 
 span{

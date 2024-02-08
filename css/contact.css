@@ -11,16 +11,14 @@
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-
-.contact .row{
+ .row{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     align-items: center;
 }
 
-.contact .row form{
+ .row form{
     flex: 1 1 40rem;
     padding: 2rem 2.5rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -29,14 +27,14 @@
     background-repeat: 5rem;
 }
 
-.contact .row .image{
+.row .image{
     flex: 1 1 40rem;
 }
 
-.contact .row .image img{
+ .row .image img{
     width: 100%;
 }
-.contact .row form .box{
+ .row form .box{
     padding: 1rem;
     font-size: 1.7rem;
     color: #333;
@@ -47,11 +45,11 @@
     width: 100%;
 }
 
-.contact .row form .box:focus{
+ .row form .box:focus{
     border-color: var;
 }
 
-.contact .row form textarea{
+.row form textarea{
     height: 15rem;
     resize: none;
 
@@ -65,5 +63,5 @@
     margin: 20px;
     border-radius: 20px;
     box-shadow: 0 0 1px 3px ;
-    height: 50px;
+    height: 50px;
 }

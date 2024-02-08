@@ -37,28 +37,6 @@
     transition: 0.2s;
 }
 
-.icon{
-    width: 30px;
-    height: 30px;
-    margin: 7px;
-}
-
-.icon:hover{
-    color:  #ff1a8c;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.cart-icon{
-    width: 35px;
-    height: 35px;
-    margin: 5px;
-    cursor: pointer;
-}
-.icons{
-    margin-right: 170px;
-}
-
 .name{
     font-size: 40px;
     margin-left: 150px;
@@ -66,7 +44,7 @@
 }
 
 .dot{
-    color: #ff1a8c;
+    color: #c00f6a;
 }
 
 body{
@@ -89,7 +67,7 @@ h2{
 
 }
 div.signup{
-    
+    height: 640px;
     text-align: center; 
     background-color:rgba(0,0,0,0.3);
      width: 100%;

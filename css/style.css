@@ -29,6 +29,7 @@
     align-items: center;
     justify-content: space-between;
     color: #efeff5;
+    position: relative;
 }
 
 .section{
@@ -168,4 +169,38 @@ a:hover{
     margin: 0;
     font-size: 16px;
     padding: 7px;
+}
+.menu{
+    width: 40px;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 17px;
+    
+}
+
+@media screen and (max-width: 768px){
+    .menu{
+        visibility: visible;
+    }
+
+    .section{
+        display: none;
+    }
+
+    .Login{
+        display: none;
+    }
+
+    .Signup{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .menu{
+        visibility: hidden;
+    }
 }

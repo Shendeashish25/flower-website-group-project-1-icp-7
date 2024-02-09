@@ -1,7 +1,7 @@
 .heading{
     text-align: center;
     font-size: 40px;
-    color: black;
+    color:black;
     padding: 10px 30px;
     margin: 20px 0px;
 background-color: #ff99ce;
@@ -45,17 +45,16 @@ text-align: center;
 }
 h3{
     text-align: center;
-    margin-bottom:
-    color:#231e21 ;
+    margin: bottom 50px;
+    color: white ;
     font-family: 'Courier New', Courier, monospace ;
     font-size: 30px;
 
 }
-p{
-}
 
 
- .discription{
+
+.discription{
     margin-bottom: 60px;
     font-size: 20px;
  

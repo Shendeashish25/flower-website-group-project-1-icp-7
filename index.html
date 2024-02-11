@@ -53,6 +53,93 @@
             box-shadow: 0px 0px 10px black;
             
         }
+        .box{
+            width: auto;
+            background-color: white;
+            height: 90vh;
+            margin-top: 30vh;
+        }
+
+        .box-heading{
+            display: flex;
+            justify-content: center;
+            font-size: 4vh;
+            background-color: #ff1a8c;
+            margin-bottom: 10vh;
+            padding: 2vh;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .heading{
+  background-color: #ffcce6;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+  font-size: 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box-container{
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  
+  margin-left:55px;
+}
+
+.box-card{
+  width: 300px;
+  height: 500px;
+  background-color: #ff99ce;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 4px black;
+}
+
+.add-card{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  border:none;
+  border-radius: 10px;
+  margin-left: 70px;
+  cursor:pointer;
+}
+.add-card:hover{
+  background:linear-gradient(45deg,#ff0084, #2e192438);
+  border:1px solid #ff0084;
+}
+.images{
+  width: 260px;
+  border-radius: 5px;
+}
+
+.description{
+  font-size: large;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-family: monospace;
+}
+.product-heading-description{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  
+}
+.blank{
+    background-color: #ff1a8c;
+    height: 5vh;
+    width: auto;
+}
+.blank-white{
+    background-color: white;
+    height: 5vh;
+    width: auto;
+}
     </style>
 </head>
 <body>
@@ -61,8 +148,8 @@
 
         <nav class="navbar">
             <a href="./index.html" class="section">Home</a>
-            <a href="./pages/about.html" target="_blank" class="section">About</a>
             <a href="./pages/product.html" target="_blank" class="section">Products</a>
+            <a href="./pages/about.html" target="_blank" class="section">About</a>
             <a href="./pages/review.html" target="_blank" class="section">Review</a>
             <a href="./pages/contact.html" target="_blank" class="section">Contact</a>
         </nav>
@@ -81,7 +168,61 @@
         <a href="./pages/product.html" class="btn" target="_blank">Shop Now</a>
     </div>
     </section>
+    <div class="box">
+        <h1 class="box-heading">Valentine's Day Best Sellers</h1>
+        <div class="box-container">
+            <div class="box-card">
+                <img src="./../img/flower-img8.webp" class="images"/>
+                <p class="product-heading-description">Flower and Plants</p>
+                <p class="description">Order this Fresh Colorful Roses Bouquet from My Flowertree this occasion make their day beautiful. Order Now</p>
+                <p class="description">₹800</p><br/>
+                <a href="./order.html">
+                    <button class="add-card">Shop Now</button>
+                </a>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="box-card">
+                <img src="./../img/flower-img5.jpg" class="images"/>
+                <p class="product-heading-description">Symbol of Pureness</p>
+                <p class="description">Every lover's muse, Red Roses are truly poetic.
+                    Professing emotions with Red Roses is the perfect thing.</p>
+                <p class="description">₹1100</p><br/>
+                <a href="./order.html">
+                    <button class="add-card">Shop Now</button>
+                </a>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="box-card">
+                <img src="./../img/flower-img3.jpg" class="images"/>
+                <p class="product-heading-description">20 Pink Roses</p>
+                <p class="description">The perfect love of pink roses is an endearing bouquet.
+                    This is a beautiful bouquet of 20 Pink Roses.</p>
+                <p class="description">₹1000</p><br/>
+                <a href="./order.html">
+                    <button class="add-card">Shop Now</button>
+                </a>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="box-card">
+                <img src="./../img/flower-img9.jpg" class="images"/>
+                <p class="product-heading-description">Assorted Roses in Heart </p>
+                <p class="description">Subtle and elegant, this 10 inches Heart Shaped Gift Box is filled with lovely Roses (Pink, Aqua Pink, and blush pink). </p>
+                <p class="description">₹1050</p><br/>
+                <a href="./order.html">
+                    <button class="add-card">Shop Now</button>
+                </a>
+            </div>
+        </div>
+        
+    </div>
 </div>
+
+<div class="blank"></div>
+<div class="blank-white"></div>
+
 
 <footer>
     <div class="container">
@@ -94,11 +235,11 @@
         <div class="footer-content">
             <h3>Quick Links</h3>
              <ul class="list">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Review</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./review.html">Review</a></li>
+                <li><a href="./contact.html">Contact</a></li>
              </ul>
         </div>
         <div class="footer-content">
@@ -112,7 +253,7 @@
             </div>
     </div>
     <div class="bottom-bar">
-        <p>&copy; 2023 your company . All rights reserved</p>
+        <p>&copy; 2024 your company . All rights reserved</p>
     </div>
 </footer>
 </body>

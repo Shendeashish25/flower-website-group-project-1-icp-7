@@ -27,11 +27,13 @@ body {
     box-shadow: 2px 2px 5px 2px;
     margin: 15px;
     background-color: #ff80c1;
+
 }
 
 .img {
     width: 100%;
     padding: 20px;
+    
 }
 
 .review-img {

@@ -67,3 +67,8 @@
     box-shadow: 0 0 1px 3px ;
     height: 50px;
 }
+.loc{
+    margin-left: 2%;
+    border: 2px black solid;
+    box-shadow: 0 0 5px black;
+}

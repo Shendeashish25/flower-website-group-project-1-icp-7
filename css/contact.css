@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
   }*/
   .heading{
-    background-color: #ffcce6;
+    background-color: #ff80c1;
     padding: 10px;
     margin: 10px;
     text-align: center;
@@ -20,11 +20,12 @@
 }
 
  .row form{
+    margin-left:20px ;
     flex: 1 1 40rem;
     padding: 2rem 2.5rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
     border:  .1rem solid rgba(0,0,0,.1);
-    background: #fff;
+    background: #ff80c1;
     background-repeat: 5rem;
 }
 

@@ -4,12 +4,16 @@ body {
 }
 
 .title {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bolder;
-    margin: 15px 0;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #ffcce6;
+    width: 100%;
+    height: 60px;
+    font-size: 35px;
+    margin-top: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 .container {
@@ -27,11 +31,13 @@ body {
     box-shadow: 2px 2px 5px 2px;
     margin: 15px;
     background-color: #ff80c1;
+
 }
 
 .img {
     width: 100%;
     padding: 20px;
+    
 }
 
 .review-img {
